@@ -62,7 +62,9 @@ const removeLikePost = async (isLiked, likes) => {
 
   return (
     <div className='feed'>
-      <DeveloperInfo />
+      <div className='feed-devinfo-container'>
+        <DeveloperInfo />
+      </div>
       <div className='posts-container'>{reversedPosts.map(post => {
         let isLiked = false
         let likes = post.like_list
@@ -81,7 +83,7 @@ const removeLikePost = async (isLiked, likes) => {
                 <img className='user-post-image' src={post.user.profile_image_url} alt="" />
 
               ) : (
-                <img className='user-post-image' src="https://i.imgur.com/vF8FTS2.png" alt="Profile"/>
+                <img className='user-post-image' src="https://i.imgur.com/f906ONQ.jpg" alt="Profile"/>
 
               )
               }
