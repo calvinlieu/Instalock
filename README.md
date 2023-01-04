@@ -1,6 +1,6 @@
 Welcome to Instalock, our clone of Instagram!
 
-[Live Link to Instalock!](https://insta-lock.herokuapp.com/login)
+[Live Link to Instalock!](https://insta--lock.herokuapp.com/login)
 
 Instalock is a full stack application that is inspired by Instagram, an online social media platform that allows people to share their experience with others through photos. 
 
