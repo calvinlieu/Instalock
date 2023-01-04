@@ -14,6 +14,14 @@
   height: 280px;
   object-fit: contain;
 }
+
+.create-post {
+  cursor: pointer;
+}
+
+.cancel-button {
+  cursor: pointer;
+}
 .create-post-top-bar {
   display: flex;
   flex-direction: row;
